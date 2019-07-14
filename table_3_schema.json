@@ -1,0 +1,29 @@
+[
+ {
+   "description": "Person name",
+   "name": "Name",
+   "type": "String",
+   "mode": "Required"
+ },
+ {
+   "name": "personaldetails",
+   "type": "RECORD",
+   "mode": "REPEATED",
+   "fields": [
+      {
+        "name": "salary",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "address",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }]
+ },
+ {
+   "name": "hobbies",
+   "type": "STRING",
+   "mode": "REPEATED"
+ }
+]

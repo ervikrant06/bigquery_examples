@@ -1,0 +1,69 @@
+[
+ {
+   "description": "Person name",
+   "name": "Name",
+   "type": "String",
+   "mode": "Required"
+ },
+ {
+   "description": "Age",
+   "name": "Age",
+   "type": "Integer",
+   "mode": "Required"
+ },
+ {
+   "description": "Gender",
+   "name": "Gender",
+   "type": "String",
+   "mode": "Nullable"
+ },
+ {
+   "description": "Hobbies",
+   "name": "Hobbies",
+   "type": "String",
+   "mode": "Repeated"
+ },
+ {
+   "name": "personaldetails",
+   "type": "RECORD",
+   "mode": "nullable",
+   "fields": [
+      {
+	"name": "bloodgroup",
+	"type": "STRING",
+	"mode": "NULLABLE"
+      },
+      {
+	"name": "salary",
+	"type": "INTEGER",
+	"mode": "NULLABLE"
+      }]
+ },
+ {
+        "name": "addresses",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name": "address",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "city",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "state",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "zip",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            }
+        ]
+    }
+]

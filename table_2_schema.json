@@ -1,0 +1,26 @@
+[
+ {
+   "description": "Person name",
+   "name": "Name",
+   "type": "String",
+   "mode": "Required"
+ },
+ {
+   "description": "hobby",
+   "name": "hobby",
+   "type": "String",
+   "mode": "Required"
+ },
+ {
+   "description": "salary",
+   "name": "salary",
+   "type": "Integer",
+   "mode": "Required"
+ },
+ {
+   "description": "address",
+   "name": "address",
+   "type": "String",
+   "mode": "Required"
+ }
+]
